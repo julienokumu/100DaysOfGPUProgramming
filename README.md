@@ -288,3 +288,7 @@
 **Day 29**: LeetGPU Matrix Multiplication Kernel
 - solved a leetgpu matrix multiplication problem, that's 6/47 now..will stay leetgpu-maxxing for the rest of the day
 -------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 30**: LeetGPU Leaky ReLU Kernel
+- wrote a leaky relu kernel and solved the problem on leetgpu, thats 7/47 now..stayed leetgpu maxxing for the rest of the day
+-----------------------------------------------------------------------------------------------------------------------------------
