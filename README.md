@@ -292,3 +292,7 @@
 **Day 30**: LeetGPU Leaky ReLU Kernel
 - wrote a leaky relu kernel and solved the problem on leetgpu, thats 7/47 now..stayed leetgpu maxxing for the rest of the day
 -----------------------------------------------------------------------------------------------------------------------------------
+
+**Day 31** LeetGPU Reverse Array Kernel
+- solved a reverse array leetgpu problem, thats 8/47 solved now...tried solving a reduction problem but getting issues with memory allocation, will figure it out
+-----------------------------------------------------------------------------------------------------------------------------------
