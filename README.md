@@ -293,6 +293,10 @@
 - wrote a leaky relu kernel and solved the problem on leetgpu, thats 7/47 now..stayed leetgpu maxxing for the rest of the day
 -----------------------------------------------------------------------------------------------------------------------------------
 
-**Day 31** LeetGPU Reverse Array Kernel
+**Day 31**: LeetGPU Reverse Array Kernel
 - solved a reverse array leetgpu problem, thats 8/47 solved now...tried solving a reduction problem but getting issues with memory allocation, will figure it out
 -----------------------------------------------------------------------------------------------------------------------------------
+**day 32**: Single Block Softmax Kernel
+- learnt about a softmax kernel, started off simple by writing a single block softmax kernel avoid any custom atomic operations but used shared memory and parallel reduction and the log-sum-exp trick to avoid overflow
+- solved 2 new leepgpu problems, matrix copy and softmax
+----------------------------------------------------------------------------------------------------------------------------------
