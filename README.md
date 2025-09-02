@@ -300,3 +300,8 @@
 - learnt about a softmax kernel, started off simple by writing a single block softmax kernel avoid any custom atomic operations but used shared memory and parallel reduction and the log-sum-exp trick to avoid overflow
 - solved 2 new leepgpu problems, matrix copy and softmax
 ----------------------------------------------------------------------------------------------------------------------------------
+
+**Day 33**: LeetGPU Dot Product Optimization
+
+- optimized my dot product kernel on leetgpu by replacing the accumulation loop with an unrolling loop by a factor of 4 to enable the kernel process four mulitply-add operation at once, this reduced loop overhead hence becoming currently the fastest kernel on a H200, B200, H100 and second place on an A100-80GB
+---------------------------------------------------------------------------------------------------------------------------- 
