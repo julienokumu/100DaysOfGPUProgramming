@@ -305,3 +305,8 @@
 
 - optimized my dot product kernel on leetgpu by replacing the accumulation loop with an unrolling loop by a factor of 4 to enable the kernel process four mulitply-add operation at once, this reduced loop overhead hence becoming currently the fastest kernel on a H200, B200, H100 and second place on an A100-80GB
 ---------------------------------------------------------------------------------------------------------------------------- 
+
+**Day 34**: LeetGPU Matrix Transpose Optimization
+
+- optimized my matrix transpose kernel on leetgpu by adding tile shared memory, achieving a 10.10x runtime speed up(from 25.79119 to 2.55282)
+----------------------------------------------------------------------------------------------------------------------------------
