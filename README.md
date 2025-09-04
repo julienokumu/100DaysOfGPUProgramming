@@ -310,3 +310,7 @@
 
 - optimized my matrix transpose kernel on leetgpu by adding tile shared memory, achieving a 10.10x runtime speed up(from 25.79119 to 2.55282)
 ----------------------------------------------------------------------------------------------------------------------------------
+
+**Day 35**: LeetGPU Matrix Transpose Further Optimization
+- further optimized my matrix transpose kernel on leetgpu by using #pragma unroll to reduce branch overhead, __restric__ pointer aliasing to prevent pointing to overlapping memory and experimented with different tile sizes.
+- on tile size 8 and tesla t4, my kernel got 1.0198x faster(2.55282ms to 2.50317ms)
