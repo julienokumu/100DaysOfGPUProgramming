@@ -318,3 +318,8 @@
 **Day 36**: Dot Product LeetGPU Practise
 - practiced writing a dot product kernel on leetgpu
 ------------------------------------------------------------------------------------------------------------------------------------
+**Day 37**: Batched Matrix Multiplication Kernel LeetGPU
+
+- learnt about and solved a batched matrix multipliccation leetgpu problem, the fp16 GEMM kernel was kind of difficult to grasp but this BMM has helped me gain deeper intuition, that's 12/50 solved now.
+- will be practicing writing fp16 GEMM and BMM kernels for the rest of the day.
+---------------------------------------------------------------------------------------------------------------------------------
