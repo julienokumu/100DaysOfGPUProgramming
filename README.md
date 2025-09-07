@@ -323,3 +323,8 @@
 - learnt about and solved a batched matrix multipliccation leetgpu problem, the fp16 GEMM kernel was kind of difficult to grasp but this BMM has helped me gain deeper intuition, that's 12/50 solved now.
 - will be practicing writing fp16 GEMM and BMM kernels for the rest of the day.
 ---------------------------------------------------------------------------------------------------------------------------------
+
+**Day 38**: Optimized Batched Matrix Multiplication Kernel LeetGPU
+
+- optimized my batched matrix multiplication kernel on leetgpu by adding shared memory, making my kernel 1.20x faster(3.53275s to 2.94001 ms)
+----------------------------------------------------------------------------------------------------------------------------
