@@ -328,3 +328,7 @@
 
 - optimized my batched matrix multiplication kernel on leetgpu by adding shared memory, making my kernel 1.20x faster(3.53275s to 2.94001 ms)
 ----------------------------------------------------------------------------------------------------------------------------
+
+**Day 39**: LeetGPU Practice
+- practiced solving 6 leetgpu problems
+-----------------------------------------------------------------------------------------------------------------------------------
