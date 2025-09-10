@@ -338,3 +338,6 @@
 - learnt about and solved a sigmoid linear unit kernel problem on leetgpu solving 13/51 problems now
 - i'll stay leetgpu-maxxing for the rest of the day
 ---------------------------------------------------------------------------------------------------------------------------
+
+**Day 41**: Matrix Transpose Kernel practice
+- practiced writing a matrix transpose kernel
