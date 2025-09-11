@@ -341,3 +341,10 @@
 
 **Day 41**: Matrix Transpose Kernel practice
 - practiced writing a matrix transpose kernel
+---------------------------------------------------------------------------------------------------------------------------
+
+**Day 42**: 1D Convolution Kernel & Fast Dot Product Kernel
+
+- learnt about and solved the 1D convolution kernel problem on leetgpu, that's 15/51 now
+- also wrote a fast dot product kernel, first place on H100, H200 and B200, 2nd on the A100, still chasing a podium on the T4(not so far away), will find a solution soon!
+----------------------------------------------------------------------------------------------------------------------------
