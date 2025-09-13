@@ -353,3 +353,9 @@
 
 - busy busy day, practiced a bunch of leetgpu problems
 -------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 44**: Simple Pytorch Inference & Fast Reverse Array LeetGPU
+
+- solved the simple inference challenge on leetgpu and managed  1st place on the B200 and H200 and 2nd place on the T4, A100, H100
+- also here's a fast reverse array kernel i wrote(trust me)
+-----------------------------------------------------------------------------------------------------------------------------
