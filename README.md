@@ -359,3 +359,9 @@
 - solved the simple inference challenge on leetgpu and managed  1st place on the B200 and H200 and 2nd place on the T4, A100, H100
 - also here's a fast reverse array kernel i wrote(trust me)
 -----------------------------------------------------------------------------------------------------------------------------
+
+**Day 45**: Fast Dot Product with Memory Allocation
+
+- been a while since i wrote a kernel and did manual memory allocation(so used to leetgpu doing it for me), so i rewrote my fast dot product kernel from leetgpu, added memory allocation, tested it on N = 1024 and profiled it
+
+-------------------------------------------------------------------------------------------------------------------------------------
