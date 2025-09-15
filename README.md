@@ -365,3 +365,7 @@
 - been a while since i wrote a kernel and did manual memory allocation(so used to leetgpu doing it for me), so i rewrote my fast dot product kernel from leetgpu, added memory allocation, tested it on N = 1024 and profiled it
 
 -------------------------------------------------------------------------------------------------------------------------------------
+**Day 46**: Fast Reverse Array Kernel with Memory Allocation
+
+- added some memory allocation to my fast reverse array kernel from leetgpu and tested it on the playground on a GTX TITAN X, profiled it too
+------------------------------------------------------------------------------------------------------------------------------------
