@@ -369,3 +369,9 @@
 
 - added some memory allocation to my fast reverse array kernel from leetgpu and tested it on the playground on a GTX TITAN X, profiled it too
 ------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 47**: 1D Convolution Kernel with Shared Memory Optimization
+
+- optimized my 1D convolution kernel on leetgpu by adding shared memory to reduce global access memory, 1.29x faster(from 6.75597 ms to 5.24543 ms)
+- 2nd fastets H200 1D convolution kernel on leetgpu
+-------------------------------------------------------------------------------------------------------------------------------------
