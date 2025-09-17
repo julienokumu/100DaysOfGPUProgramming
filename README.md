@@ -375,3 +375,7 @@
 - optimized my 1D convolution kernel on leetgpu by adding shared memory to reduce global access memory, 1.29x faster(from 6.75597 ms to 5.24543 ms)
 - 2nd fastets H200 1D convolution kernel on leetgpu
 -------------------------------------------------------------------------------------------------------------------------------------
+**Day 48**: 1D Convolution Kernel Optimization Attempt
+
+- attempted to optimize my 1D convolution kernel, on top of shared memory I tried to reduce the redundant output_size computation but didn't end up achieving a neglible speedup
+--------------------------------------------------------------------------------------------------------------------------------
