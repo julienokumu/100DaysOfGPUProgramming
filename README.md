@@ -379,3 +379,8 @@
 
 - attempted to optimize my 1D convolution kernel, on top of shared memory I tried to reduce the redundant output_size computation but didn't end up achieving a neglible speedup
 --------------------------------------------------------------------------------------------------------------------------------
+
+**Day 49**: Refactored Fast Dot Product Kernel
+
+- refactored my fast dot product kernel, cleaner and slightly faster
+-----------------------------------------------------------------------------------------------------------------------------------
