@@ -384,3 +384,10 @@
 
 - refactored my fast dot product kernel, cleaner and slightly faster
 -----------------------------------------------------------------------------------------------------------------------------------
+
+**Day 50**: 2D Convolution Kernel
+
+- learnt about writing a 2D convolution kernel and solved the challenge on leetgpu
+- 2nd fastest 2D conv kernel on the B200 & H200, 3rd fastest on the h100
+- will be looking into optimizations to make it faster
+-----------------------------------------------------------------------------------------------------------------------------------
