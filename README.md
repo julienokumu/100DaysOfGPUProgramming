@@ -391,3 +391,9 @@
 - 2nd fastest 2D conv kernel on the B200 & H200, 3rd fastest on the h100
 - will be looking into optimizations to make it faster
 -----------------------------------------------------------------------------------------------------------------------------------
+
+**Day 51**: Further Optimization on Matrix Transpose Kernel
+
+- ran dozens of experiments and further optimized my H100 matrix transpose kernel on leetgpu by adding restrict pointers for float input & output, tweaked the tile size and added pragma unroll loops
+- achieved a 1.94x speedup in runtime(from 0.45757 to 0.23612 ms)
+------------------------------------------------------------------------------------------------------------------------------------
