@@ -397,3 +397,6 @@
 - ran dozens of experiments and further optimized my H100 matrix transpose kernel on leetgpu by adding restrict pointers for float input & output, tweaked the tile size and added pragma unroll loops
 - achieved a 1.94x speedup in runtime(from 0.45757 to 0.23612 ms)
 ------------------------------------------------------------------------------------------------------------------------------------
+**Day 52**: Mojo Vector Add Kernel
+- learnt how to write a vector add kernel in mojo, a lot similar to cuda..it's like cuda but with python-like syntax
+- can you beat my H100 mojo vector add?
