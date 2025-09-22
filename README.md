@@ -398,5 +398,14 @@
 - achieved a 1.94x speedup in runtime(from 0.45757 to 0.23612 ms)
 ------------------------------------------------------------------------------------------------------------------------------------
 **Day 52**: Mojo Vector Add Kernel
+
 - learnt how to write a vector add kernel in mojo, a lot similar to cuda..it's like cuda but with python-like syntax
 - can you beat my H100 mojo vector add?
+-------------------------------------------------------------------------------------------------------------------------------------
+**Day 53**: Mojo Reverse Array Kernel
+- fastest T4 mojo reverse array kernel on leetgpu
+- getting the hang of mojo, it's not that hard compared to cuda cause of it's simple readable python-like syntax
+- i like the ceildiv function, easier to write compared to cuda's
+- still trying to optimized my 2D conv cuda kernel
+------------------------------------------------------------------------------------------------------------------------------------
+
