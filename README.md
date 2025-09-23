@@ -409,3 +409,6 @@
 - still trying to optimized my 2D conv cuda kernel
 ------------------------------------------------------------------------------------------------------------------------------------
 
+**Day 54**: Mojo ReLU Kernel
+- busy day but managed to squeeze in some time and learnt to write a ReLU activation function kernel in Mojo
+------------------------------------------------------------------------------------------------------------------------------------
