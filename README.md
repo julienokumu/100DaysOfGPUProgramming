@@ -412,3 +412,9 @@
 **Day 54**: Mojo ReLU Kernel
 - busy day but managed to squeeze in some time and learnt to write a ReLU activation function kernel in Mojo
 ------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 55**: Mojo Matrix Copy & CUDA FP16 Gemm
+- learnt how to write a matrix copy kernel in mojo
+- i began reading through sibhoems blog on how to optimize a cuda matmul for cuBLAS-like performance, found out my fp16 gemm kept getting a out of memory bounds because of the way i was doing my indexing(idk how i didn't spot it all this time, skill issue), so i rewrote it and slightly optimized it by adding an unroll loop and slashed out the redundant computation when passing the answer to C
+- think of this implementation as Kernel 1[very naive]
+-----------------------------------------------------------------------------------------------------------------------------------
