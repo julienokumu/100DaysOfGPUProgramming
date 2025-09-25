@@ -418,3 +418,8 @@
 - i began reading through sibhoems blog on how to optimize a cuda matmul for cuBLAS-like performance, found out my fp16 gemm kept getting a out of memory bounds because of the way i was doing my indexing(idk how i didn't spot it all this time, skill issue), so i rewrote it and slightly optimized it by adding an unroll loop and slashed out the redundant computation when passing the answer to C
 - think of this implementation as Kernel 1[very naive]
 -----------------------------------------------------------------------------------------------------------------------------------
+
+**Day 56**: SwiGLU & FP16 SGEMM with Shared Memory and Leaky ReLU in Mojo
+- learnt to write a swiglu kernel in cuda and a leaky relu kernel in mojo
+- read simon's blog[kernel 3 implementation] and ended up adding shared memory to my coalesced fp16 sgemm kernl, 31.7% faster now(from a runtime of 0.4431 to 0.3364ms)
+------------------------------------------------------------------------------------------------------------------------------------
