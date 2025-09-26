@@ -423,3 +423,8 @@
 - learnt to write a swiglu kernel in cuda and a leaky relu kernel in mojo
 - read simon's blog[kernel 3 implementation] and ended up adding shared memory to my coalesced fp16 sgemm kernl, 31.7% faster now(from a runtime of 0.4431 to 0.3364ms)
 ------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 57**: Count Array Kernel
+- learnt how to write a count array kernel, this time i didn't start with a naive kernel: i went straight for shared memory optimization
+- still practicing writing matmul kernel, preping my kernel 3 implemenation by adding 1D tiling..i'll probably do this on monday
+-----------------------------------------------------------------------------------------------------------------------------------
