@@ -428,3 +428,7 @@
 - learnt how to write a count array kernel, this time i didn't start with a naive kernel: i went straight for shared memory optimization
 - still practicing writing matmul kernel, preping my kernel 3 implemenation by adding 1D tiling..i'll probably do this on monday
 -----------------------------------------------------------------------------------------------------------------------------------
+
+**Day 58**: FP16 SGEMM & Dot Product Kernel Practice
+- practiced writing a cuda fp16 gemm and a dot product kernel
+------------------------------------------------------------------------------------------------------------------------------------
