@@ -432,3 +432,8 @@
 **Day 58**: FP16 SGEMM & Dot Product Kernel Practice
 - practiced writing a cuda fp16 gemm and a dot product kernel
 ------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 59**: 2D Convolution Kernel
+- was experimenting with my 2d convolution kernel and ended up making some tweaks: added an unroll loop for the convolution compution
+- currently 2nd fastest H200 2D convolution kernel, achieved a 1.35x speedup in runtime(frrom 0.81811 ms to 0.60366 ms)
+----------------------------------------------------------------------------------------------------------------------------------
