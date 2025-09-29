@@ -437,3 +437,8 @@
 - was experimenting with my 2d convolution kernel and ended up making some tweaks: added an unroll loop for the convolution compution
 - currently 2nd fastest H200 2D convolution kernel, achieved a 1.35x speedup in runtime(frrom 0.81811 ms to 0.60366 ms)
 ----------------------------------------------------------------------------------------------------------------------------------
+
+**Day 60**: F16 SGEMM with 1D BlockTiling Optimization
+- read simon's kernel 4 implementation, understood it, then proceeded to add 1D BlockTiling to my fp16 gemm with shared memory and memory coealescing
+- now currently 2nd fastest H200 fp16 gemm kernel on leetgpu following a 6.15% speedup in runtime(0.3364 to 0.3168 ms)
+------------------------------------------------------------------------------------------------------------------------------------
