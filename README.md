@@ -442,3 +442,9 @@
 - read simon's kernel 4 implementation, understood it, then proceeded to add 1D BlockTiling to my fp16 gemm with shared memory and memory coealescing
 - now currently 2nd fastest H200 fp16 gemm kernel on leetgpu following a 6.15% speedup in runtime(0.3364 to 0.3168 ms)
 ------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 61**: Batched Matrix Multiplication with 1D BlockTiling
+- as a result of yesterday's fp16 gemm optimization, i took a look at my batched mat mul and saw how slow it was
+- optimized it by adding memory coalescing, shared memory and 1D blocktiling for columns(i find this very handy)
+- 32.5% faster(0.23302 to 0.17579ms) on the H200
+------------------------------------------------------------------------------------------------------------------------------------  
