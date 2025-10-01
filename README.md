@@ -448,3 +448,8 @@
 - optimized it by adding memory coalescing, shared memory and 1D blocktiling for columns(i find this very handy)
 - 32.5% faster(0.23302 to 0.17579ms) on the H200
 ------------------------------------------------------------------------------------------------------------------------------------  
+
+**Day 62**: Dot Product Kernel with Unsigned Ints
+- optimized my dot product kernel by using unsigned ints instead of ints, significant increase in performance
+- apparently unsigned int has faster execution due to fewer instructions, esp in unrolled loops
+---------------------------------------------------------------------------------------------------------------------------
