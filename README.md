@@ -453,3 +453,7 @@
 - optimized my dot product kernel by using unsigned ints instead of ints, significant increase in performance
 - apparently unsigned int has faster execution due to fewer instructions, esp in unrolled loops
 ---------------------------------------------------------------------------------------------------------------------------
+
+**Day 63**: FP16 GEMM Practice
+- busy day but i managed to practice writing a fp16 gemm, cleaned it: washed off some redundant computations
+---------------------------------------------------------------------------------------------------------------------------
