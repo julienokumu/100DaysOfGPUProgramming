@@ -457,3 +457,8 @@
 **Day 63**: FP16 GEMM Practice
 - busy day but i managed to practice writing a fp16 gemm, cleaned it: washed off some redundant computations
 ---------------------------------------------------------------------------------------------------------------------------
+
+**Day 64**: Batched Mat Mul Optimization
+- slighlty tweaked my batched mat mul by adding restrict pointers and scraping off any redundant indexing
+- 7.06% faster(0.17673ms to 0.16426ms)
+------------------------------------------------------------------------------------------------------------------------------------
