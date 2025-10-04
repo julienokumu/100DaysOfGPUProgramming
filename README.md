@@ -462,3 +462,9 @@
 - slighlty tweaked my batched mat mul by adding restrict pointers and scraping off any redundant indexing
 - 7.06% faster(0.17673ms to 0.16426ms)
 ------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 65**: Dot Product Optimization
+- was practicing writing a dot product kernel when i saw some flaws and turned them into perfection
+- 1.44x faster(44% faster) : 0.01812ms to 0.01256 ms
+- faster kernel on the a100, H100 and H200
+------------------------------------------------------------------------------------------------------------------------------------
