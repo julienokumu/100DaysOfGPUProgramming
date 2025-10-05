@@ -468,3 +468,8 @@
 - 1.44x faster(44% faster) : 0.01812ms to 0.01256 ms
 - faster kernel on the a100, H100 and H200
 ------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 66**: CuTe DSL Vector Add Kernel
+- started reading the nvidia cutlass documention
+- learnt how to write a CuTe DSL vectpr add kernel, currently fastest as well on all available GPU's on leetgpu
+------------------------------------------------------------------------------------------------------------------------------------
