@@ -471,5 +471,10 @@
 
 **Day 66**: CuTe DSL Vector Add Kernel
 - started reading the nvidia cutlass documention
-- learnt how to write a CuTe DSL vectpr add kernel, currently fastest as well on all available GPU's on leetgpu
+- learnt how to write a CuTe DSL vector add kernel, currently fastest as well on all available GPU's on leetgpu
 ------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 67**: FP16 GEMM & Dot Product Practice
+- practiced writing my very fast dot product kernel and a fp16 gemm kernel
+--------------------------------------------------------------------------------------------------------------------------------------
+  
