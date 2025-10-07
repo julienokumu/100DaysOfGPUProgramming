@@ -477,4 +477,8 @@
 **Day 67**: FP16 GEMM & Dot Product Practice
 - practiced writing my very fast dot product kernel and a fp16 gemm kernel
 --------------------------------------------------------------------------------------------------------------------------------------
-  
+**Day 68**: CuTe DSL ReLU Kernel and Cuda Reverse Array Optimization
+
+- learnt how to write a relu kernel in cute dsl
+- slightly tweaked my fast cuda reverse array kernel and making it 7.84x faster on the B200(0.13842 ms to 0.01765 ms), similar improvements seen on the T4, A100, H200 and H100
+---------------------------------------------------------------------------------------------------------------------------------
