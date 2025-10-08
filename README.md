@@ -482,3 +482,8 @@
 - learnt how to write a relu kernel in cute dsl
 - slightly tweaked my fast cuda reverse array kernel and making it 7.84x faster on the B200(0.13842 ms to 0.01765 ms), similar improvements seen on the T4, A100, H200 and H100
 ---------------------------------------------------------------------------------------------------------------------------------
+
+**Day 69**: FP16 GEMM with Tensor Cores via WMMA API
+- learnt how to write a FP16 GEMM with tensor cores via the WMMA API
+- saw a dramatic speedup: upto 4.91x faster on the H100(0.4431ms to 0.09027ms), similar on dramatic speed up on the H200, B200 and A100(fastest kernel on all 4 gpu's)
+--------------------------------------------------------------------------------------------------------------------------------------
