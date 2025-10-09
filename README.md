@@ -487,3 +487,9 @@
 - learnt how to write a FP16 GEMM with tensor cores via the WMMA API
 - saw a dramatic speedup: upto 4.91x faster on the H100(0.4431ms to 0.09027ms), similar on dramatic speed up on the H200, B200 and A100(fastest kernel on all 4 gpu's)
 --------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 70**: FP16 WMMA correction
+
+- realized switching my layout for the b_frag to ::col_major wont work cause the leetgpu problem concerned specifically asks us to assume all matrices are row major
+- but i did find out that ::col_major is the correct mem layout for the b_frag because it aligns the data for tensor core operations and optimizes memory access patterns, hence improving performance
+-------------------------------------------------------------------------------------------------------------------------------------
