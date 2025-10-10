@@ -493,3 +493,10 @@
 - realized switching my layout for the b_frag to ::col_major wont work cause the leetgpu problem concerned specifically asks us to assume all matrices are row major
 - but i did find out that ::col_major is the correct mem layout for the b_frag because it aligns the data for tensor core operations and optimizes memory access patterns, hence improving performance
 -------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 71**: WMMA GEMM A100 vs H100 Comparison
+
+- ran an experiment comparing my WMMA GEMM on the A100 vs H100
+- the A100 clocked a peak runtime of 0.13873 ms while the H100 sprinted to 0.09027 ms
+- that's a 1.54x speedup
+-------------------------------------------------------------------------------------------------------------------------------------
