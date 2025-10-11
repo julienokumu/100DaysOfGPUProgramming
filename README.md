@@ -500,3 +500,8 @@
 - the A100 clocked a peak runtime of 0.13873 ms while the H100 sprinted to 0.09027 ms
 - that's a 1.54x speedup
 -------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 72**: Optimized Batched Mat Mul
+- optimized my batched mat mul by padding shared memory, using restrict pointers for A, B, C and unsigned ints for unroll loops
+- achieved a 1.187x speedup in runtime.
+-------------------------------------------------------------------------------------------------------------------------------------
