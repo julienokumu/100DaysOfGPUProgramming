@@ -505,3 +505,8 @@
 - optimized my batched mat mul by padding shared memory, using restrict pointers for A, B, C and unsigned ints for unroll loops
 - achieved a 1.187x speedup in runtime.
 -------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 73**: B200 Dot Product Kernel Bug Fix
+- found a slight but critical bug in my B200 dot product kernel
+- fixed it and achieved an 11% speedup in ruuntime
+------------------------------------------------------------------------------------------------------------------------------------ 
