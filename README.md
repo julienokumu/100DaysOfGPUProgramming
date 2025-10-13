@@ -510,3 +510,8 @@
 - found a slight but critical bug in my B200 dot product kernel
 - fixed it and achieved an 11% speedup in ruuntime
 ------------------------------------------------------------------------------------------------------------------------------------ 
+
+**Day 74**: Optimized Matrix Transpose Kernel
+- optimized my matrix transpose kernel by adding loop unrolling and instruction level parallelism and tweaking the tile size
+- acheived upto 2.41x speed up the T4, A100, H100, H200 and B200
+------------------------------------------------------------------------------------------------------------------------------------
