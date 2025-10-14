@@ -515,3 +515,8 @@
 - optimized my matrix transpose kernel by adding loop unrolling and instruction level parallelism and tweaking the tile size
 - acheived upto 2.41x speed up the T4, A100, H100, H200 and B200
 ------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 74**: Optimized My Naive Mat Mul
+
+- optimized my naive matmul kernel by adding shared memory, loop unrolling and memory coalescing
+----------------------------------------------------------------------------------------------------------------------------------
