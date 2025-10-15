@@ -516,7 +516,12 @@
 - acheived upto 2.41x speed up the T4, A100, H100, H200 and B200
 ------------------------------------------------------------------------------------------------------------------------------------
 
-**Day 74**: Optimized My Naive Mat Mul
+**Day 75**: Optimized My Naive Mat Mul
 
 - optimized my naive matmul kernel by adding shared memory, loop unrolling and memory coalescing
 ----------------------------------------------------------------------------------------------------------------------------------
+
+**Day 76**: FP16 Batched MatMul
+
+- learnt how to write a FP16 batched mat mul programmed with tensor cores via the WMMA API
+------------------------------------------------------------------------------------------------------------------------------------
