@@ -1,0 +1,50 @@
+#include <cuda_runtime.h>
+#include <cuda_fp16.h>
+
+#define BLOCK_SIZE 32
+#define TILE_WIDTH 4
+
+__global__ void half_gemm(const half* __restrict__ A, const half* __restrict__ B, half* __restrict__ C, int M, int N, int K, float alpha, float beta) {
+	__shared__ half As[BLOCK_SIZE][BLOCK_SIZE];
+	__shared__ half Bs[BLOCK_SIZE][BLOCK_SIZE];
+
+	int ty = threadIdx.y;
+	int tx = threadIdx.x;
+	int row = blockIdx.y * BLOCK_SIZE + ty;
+	int col = blockIdx.x * BLOCK_SIZE * TILE_WIDTH + tx;
+
+	float tmp[TILE_WIDTH] = {0.0f};
+
+	#pragma unroll
+	for (unsigned int t = 0; t < (K + BLOCK_SIZE - 1) / BLOCK_SIZE; t++) {
+		if (row < M && (t * BLOCK_SIZE + tx) < K) {
+			As[ty][tx] = A[row * K + t * BLOCK_SIZE + tx];
+		} else {
+			As[ty][tx] = 0.0f;
+		}
+
+		#pragma unroll
+		for (unsigned int i = 0; i < TILE_WIDTH; i++) {
+			int col_idx = col + i * BLOCK_SIZE;
+			if (col_idx < N && (t * BLOCK_SIZE + ty) < K) {
+				Bs[ty][tx] = B[(t * BLOCK_SIZE + ty) * N + col_idx];
+			} else {
+				Bs[ty][tx] = 0.0f;
+			}
+			__syncthreads();
+
+			#pragma unroll
+			for (unsigned int k = 0; k < BLOCK_SIZE; k++) {
+				tmp[i] += __half2float(As[ty][k]) * __half2float(Bs[k][tx]);
+			}
+			__syncthreads();
+		}
+	}
+	#pragma unroll
+	for (unsigned int i = 0; i < TILE_WIDTH; i++) {
+		int col_idx = col + i * BLOCK_SIZE;
+		if (row < M && col_idx < N) {
+			C[row * N + col_idx] = alpha * tmp[i] + beta * __half2float(C[row * N + col_idx]);
+		}
+	}
+}
