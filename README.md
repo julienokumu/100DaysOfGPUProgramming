@@ -525,3 +525,7 @@
 
 - learnt how to write a FP16 batched mat mul programmed with tensor cores via the WMMA API
 ------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 77**: FP16 Batched vs Gemm Comparison
+- practiced how to write my fp16 batched matml and gemm and ended up comparing the two to find out why the batched is faster
+--------------------------------------------------------------------------------------------------------------------------
