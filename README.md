@@ -529,3 +529,7 @@
 **Day 77**: FP16 Batched vs Gemm Comparison
 - practiced how to write my fp16 batched matml and gemm and ended up comparing the two to find out why the batched is faster
 --------------------------------------------------------------------------------------------------------------------------
+
+**Day 78: Failed FP16 Dot Product 
+- multiple failed attempts at solving the fp16 dor product problem, i suspect the problem to be numerical instability..currently looking for a solution
+------------------------------------------------------------------------------------------------------------------------------------
