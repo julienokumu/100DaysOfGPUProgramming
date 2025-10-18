@@ -533,3 +533,8 @@
 **Day 78: Failed FP16 Dot Product 
 - multiple failed attempts at solving the fp16 dor product problem, i suspect the problem to be numerical instability..currently looking for a solution
 ------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 79**: CuTe DSL Matrix Copy
+
+- learnt how to write a matrix copy in CuTe DSL
+------------------------------------------------------------------------------------------------------------------------------------
