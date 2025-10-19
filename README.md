@@ -538,3 +538,7 @@
 
 - learnt how to write a matrix copy in CuTe DSL
 ------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 80**: Dot Product Practice
+
+- did some dot product practice
