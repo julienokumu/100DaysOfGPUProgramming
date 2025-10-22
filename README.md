@@ -548,3 +548,12 @@
 
 - finally solved the fp16 dot product 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 82**: FP16 Batched MatMul
+- practiced how to write a batched mat mul
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Day 83**: Pytorch Vector Add and Mat Mul Kernels
+
+- learnt how to write vector add and mat mul kernels in PyTorch
+- 
