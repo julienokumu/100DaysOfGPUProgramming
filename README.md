@@ -570,6 +570,6 @@
 **Day 86: Bitonic Sort Cuda Kernel
 - learnt abit about sorting algorithms and wrote a bitonic sort kernel in CUDA
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
-**Day 85**: Vector Add Kernel in Triton
-- learnt ho wto write a vector add kernel in triton
+**Day 87**: Rainbow Table Kernel in CUDA
+- learnt how to write a rainbow table kernel in CUDA
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
