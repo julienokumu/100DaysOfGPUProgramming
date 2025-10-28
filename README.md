@@ -573,3 +573,5 @@
 **Day 87**: Rainbow Table Kernel in CUDA
 - learnt how to write a rainbow table kernel in CUDA
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Day 89**: Color Inversion Kernel
+- learnt how to write a color inversion kernel in cuda
