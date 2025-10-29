@@ -573,5 +573,11 @@
 **Day 87**: Rainbow Table Kernel in CUDA
 - learnt how to write a rainbow table kernel in CUDA
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Day 88**: Histogram Kernel
+- learnt how to write a histogram kernel in CUDA
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Day 89**: Color Inversion Kernel
 - learnt how to write a color inversion kernel in cuda
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Day 90**: Gaussian Blur Kernel
+- learnt how to write a gaussian blur kernel in CUDA
