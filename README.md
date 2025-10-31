@@ -585,3 +585,5 @@
 **Day 91**: FP16 Mat Mul Practice
 - did some fp16 mat mul practice today
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Day 92**: 2D Convolution Kernel
+- did some 2D convolution practice in CUDA
